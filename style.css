@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+}
+header h2{
+    color: azure;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+nav a:hover{
+    color: crimson; 
+} 
+.abstract{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("banner.jpg");
+    background-size:cover ;
+    height: 700px;
+    text-align: center;
+    color: azure
+}
+.abstract p{
+    margin-top: 600px;
+}
+.abstract button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    border:none;
+    color: azure;
+    border-radius: 5px;
+}
+.aboutUs{
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+.aboutUs p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: azure;
+}
+.aboutUs h2{
+    font-size: 25px;
+    margin-bottom:20px;
+    color: azure;
+}
+.Gallery{
+    text-align: center;
+    padding: 50px 20px;
+}
+.Gallery h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.imagesContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.imagesContainer img{
+    width:100%;
+    height: auto;
+    border-radius: 5px;
+}
+footer{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: azure;
+}
+footer p{
+    font-size: 14px;
+    color: #999;
+}
